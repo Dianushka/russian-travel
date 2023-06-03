@@ -283,7 +283,7 @@ line-height: 110%;
     .place__title {
 font-size: 32px;
 line-height: 109%;
-margin-bottom: 32px; 
+margin-bottom: 32px;
 max-width: 288px;
 }
 }
@@ -380,7 +380,7 @@ font-size: 16px;
     }
 }
 .cover{
-display: flex;    
+display: flex; 
 flex-direction: column;
 position: relative;
 align-items: center;
