@@ -39,9 +39,13 @@ font-weight:400;
 font-size: 24px; 
 line-height: 117%;
 font-style: normal;
-text-decoration: none;
-color:#FFFF; 
+text-decoration: underline;
+opacity: 1;
 }
+.header__lang-link:hover{
+    opacity:0.5;
+    transition: 0.5s;
+    }
 @media screen and (min-width: 320px) and (max-width:425px) {
     .header__lang-link {
         font-size: 18px;
@@ -117,7 +121,6 @@ overflow: hidden;
         }
     }
 .lead__caption{
-color: #FFFF;
 margin-bottom: 0;
 font-family: 'Inter';
 font-style: normal;
@@ -311,7 +314,13 @@ max-width:440px;
 display: flex;
 flex-direction: column;
 justify-content: flex-end;
+opacity: 1;
 }
+.place__website:hover{
+    opacity:0.5;
+    transition: 0.5s;
+    }
+    
 .place__url-heading{
 font-style: normal;
 font-weight: 400;
@@ -428,7 +437,6 @@ padding:0;
 margin:0 0 32px 0;
 z-index: 1;
 justify-content: center;
-text-align: center;
 }
 
 @media screen and (min-width: 320px) and (max-width:425px) {
@@ -464,7 +472,6 @@ margin-top:16px;
 font-size: 14px;
 line-height: 16px;
 margin-bottom: 33px;
-margin-top:0;
 margin-left:16px;
 margin-right: 16px;
 }
