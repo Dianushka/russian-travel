@@ -185,7 +185,7 @@ margin-bottom: 33px;
 }
 .photo-grid{
 display: grid;
-grid-template-columns: repeat(auto-fill, minmax(288px, 1fr));
+grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
 grid-template-rows:repeat(auto-fill, minmax(213px, 1fr));
 justify-content: center;
 grid-gap:16px; 
@@ -197,6 +197,7 @@ object-fit: contain;
 
 .photo-grid__item{
 margin: 0;
+max-width: 352px;
 padding: 0;
 object-fit: contain;
 }
@@ -379,7 +380,7 @@ justify-content: center;
 padding-top: 90px;
 width: 1184px;
 height: 740px;
-background-image: url(../images/__background.jpg);
+background-image: url(../images/cover-trains.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
@@ -524,20 +525,3 @@ color: #FFFFFF;
 color: #FFFFFF;
 text-decoration: none;
 }
-
-@font-face {
-    font-family: 'Inter' Arial, sans-serif;
-    font-weight: 400;
-    src:url(../vendor/fonts/Inter-Regular.ttf) format("ttf");
-  }
-
-  @font-face {
-    font-family:'Inter' Arial, sans-serif;
-    font-weight: 700;
-    src:url(../vendor/fonts/Inter-Bold.ttf) format("ttf");
-  }
-  @font-face{
-    font-family: 'Inter'Arial, sans-serif;
-    font-weight: 900;
-    src:url(../vendor/fonts/Inter-Black.ttf) format("ttf");
-  }
