@@ -1,5 +1,10 @@
 .intro__list_span{
-    color:#FFFFFF;
-    font-weight: 700;
-    font-style: normal;
+font-weight: 900;
+font-style: normal;
+font-family: 'Inter';
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* or 150% */
+color: #FFFFFF;
 }
