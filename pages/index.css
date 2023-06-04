@@ -38,5 +38,5 @@
 @import url(../blocks/footer/__list/footer__list.css);
 @import url(../blocks/place/places/place.css);
 @import url(../blocks/place/__link/place__link.css);
-@import url(../blocks/header/__lang-link/__lang-link_underline/header__lang-link_underline.css);
-@import url(../blocks/intro/__list/_span/intro__list_span.css);
+@import url(../blocks/header/__lang-link/_underline/header__lang-link_underline.css);
+@import url(../blocks/span/span.css);

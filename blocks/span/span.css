@@ -1,0 +1,9 @@
+.span{
+font-weight: 900;
+font-style: normal;
+font-family: 'Inter';
+font-size: 12px;
+line-height: 18px;
+/* or 150% */
+color: #FFFFFF;
+}
