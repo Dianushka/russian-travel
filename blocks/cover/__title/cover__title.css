@@ -10,16 +10,20 @@
     z-index: 1;
     justify-content: center;
     }
-    
+    @media screen and (min-width: 768px){
+        .cover__title {
+            max-width: 560px;
+        }
+            }
     @media screen and (min-width: 320px) and (max-width:425px) {
         .cover__title {
-    max-width: 288px;
-    max-height: 70px;
+    width:100%;
+    font-family: "Inter", "Arial", sans-serif;
+    font-weight: 900;
+    text-align: center;
     font-size: 32px;
     line-height: 35px;
-    margin-left:16px;
-    margin-right:16px;
-    margin-bottom:16px;
+    margin: 0 auto 0 auto;
     padding:0;
     }
-    }
+}

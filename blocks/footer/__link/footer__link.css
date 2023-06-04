@@ -1,4 +1,10 @@
 .footer__link{
     color: #ffffff;
     text-decoration: none;
-    }
+    display: flex;
+    column-gap: 18px;
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
