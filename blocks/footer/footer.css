@@ -7,16 +7,9 @@ footer {
         justify-content: space-between;
         align-items: center;
     }
-    @media screen and (min-width: 1024px) and (max-width: 1279px){
-    .footer {
-        max-width: 90%;
-        margin: 92px auto 24px auto;
+    @media screen and  (max-width:425px) {
+        .footer{
+            margin-left:16px;
+            margin-bottom:24px;
     }
-    }
-    @media screen and (max-width: 767px){
-.footer {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 64px 0 24px 16px;
-}
     }
