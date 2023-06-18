@@ -2,10 +2,5 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    opacity: 1;
     }
-    .place__website:hover{
-        opacity:0.5;
-        transition: 0.5s;
-        }
-    
+  
