@@ -6,6 +6,10 @@
     font-style: normal;
     text-decoration: none;
     opacity: 1;
+    margin-right: 18px;
+    }
+    .header__lang-link:last-of-type {
+        margin-right: 16px;
     }
     .header__lang-link:hover{
         opacity:0.5;
@@ -15,8 +19,5 @@
             .header__lang-link {
                 font-size: 18px;
                 line-height: 111%;
-                margin-right: 16px;
-                margin-bottom:48px;
-                margin-top:30px;
             }
         }

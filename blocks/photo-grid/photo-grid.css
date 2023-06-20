@@ -4,24 +4,27 @@
     grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
     grid-gap:16px;
     margin:0 auto;
-    padding-bottom: 52px;
+    padding-top:0;
+    padding-bottom: 69px;
     }
     @media screen and (min-width: 1024px) and (max-width: 1279px){
 .photo-grid {
     max-width: 928px;
     grid-gap:14px;
+    padding-bottom: 92px;
 }
     }
    @media screen and (min-width: 768px) and (max-width: 1023px){
-.photo-grid__list {
+.photo-grid{
     grid-gap: 16px;
     max-width: 720px;
+    padding-bottom: 88px;
 }
    }
    @media screen and (max-width: 767px){
    .photo-grid {
        max-width: 720px;
-       padding: 0 16px 40px 16px;
+       padding-bottom: 66px;
        grid-gap:12px;
-   }
 }
+   }
