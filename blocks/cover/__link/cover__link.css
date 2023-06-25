@@ -25,7 +25,8 @@
     height: 100%;
     transition: .2s;
 }
-.cover__link:hover::before{
-    opacity:.5;
-    z-index:1;
-    }
+
+.cover__link:hover::before {
+    opacity: .5;
+    z-index: 1;
+}

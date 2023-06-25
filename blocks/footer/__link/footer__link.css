@@ -1,4 +1,4 @@
-.footer__link{
+.footer__link {
     color: #ffffff;
     text-decoration: none;
     display: flex;
@@ -7,9 +7,10 @@
     text-align: left;
     margin: 0;
     padding: 0;
-    opacity:1;
+    opacity: 1;
 }
-.footer__link:hover{
-    opacity:0.5;
+
+.footer__link:hover {
+    opacity: 0.5;
     transition: 0.5s;
-    }
+}
