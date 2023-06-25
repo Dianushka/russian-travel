@@ -1,7 +1,6 @@
-.lead__image{
-    width:100%;
+.lead__image {
+    width: 100%;
     max-width: 984px;
     margin: 0 auto 0 auto;
     object-fit: cover;
-    }
-    
+}

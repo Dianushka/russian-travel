@@ -3,15 +3,17 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    padding-bottom:24px;
-    text-align: center;
-    margin:auto 0 auto 0;
     color: #FFFFFF;
     }
-    @media screen and (min-width: 320px) and (max-width:425px) {
+    
+    @media screen and (max-width:767px) {
+        .footer__copyright{
+            padding-top: 48px;
+    }
+    }
+    
+  @media screen  and (max-width:1023px){
     .footer__copyright{
-        max-width: 186px;
-        text-align: left;
+        text-align: end;
     }
-    }
-  
+  }  
