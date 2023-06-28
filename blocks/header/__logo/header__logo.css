@@ -1,6 +1,5 @@
 .header__logo {
     width: 176px;
-    height: 52px;
     padding-top: 28px;
     padding-bottom: 56px;
     margin: 0;
@@ -30,5 +29,6 @@
         padding-right: 84px;
         padding-bottom: 48px;
         padding-top: 16px;
+        padding-left: 16px;
     }
 }
