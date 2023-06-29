@@ -1,17 +1,22 @@
 .place__website {
     display: flex;
     flex-direction: column;
-    align-self: self-end;
+    align-self: flex-end;
     padding-top: 0;
-    padding-bottom: 48px;
+    padding-bottom: 8px;
     margin: 0;
 }
-@media  screen and (max-width:767px) {
-    .place__website{
-        padding-bottom: 32px;
+
+@media screen and (max-width: 1279px) {
+    .place__website {
+        padding-bottom: 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__website {
+        padding-bottom: 0;
         padding-left: 16px;
         padding-right: 16px;
-        padding-top: 0;
     }
-    
 }

@@ -6,31 +6,15 @@
     font-style: normal;
     text-decoration: none;
     opacity: 1;
-    margin: 0;
-    padding-bottom: 62px;
-    padding-top: 46px;
-    padding-left: 0;
-    padding-right: 0;
+    margin-right: 18px;
+    display: flex;
+    text-align: end;
 }
 
-@media  screen and (min-width:1024px) and (max-width:1279px){
-    .header__lang-link {
-        padding-bottom: 54px;
-        padding-top: 46px;
-    }
-}
-@media screen and (min-width:768px) and (max-width:1023px) {
-    .header__lang-link{
-        padding-top: 46px;
-        padding-bottom: 54px;
-    }
-}
-@media  screen and (max-width: 767px) {
+@media screen and (max-width:767px) {
     .header__lang-link {
         font-size: 18px;
-        line-height: 111%;
-        padding-bottom: 56px;
-        padding-top:30px;
+        line-height: 20px;
     }
 }
 
@@ -40,6 +24,5 @@
 }
 
 .header__lang-link:last-of-type {
-    padding-right: 0;
-    margin: 0;
+    margin-right: 0;
 }

@@ -5,28 +5,24 @@
     line-height: 163%;
     color: #FFFFFF;
     margin: 0;
-    padding-top: 0;
-    padding-left: 0;
-    padding-bottom: 26px;
+    padding: 0;
 }
 
 @media screen and (min-width: 769px) and (max-width:1024px) {
     .place__paragraph {
         max-width: 456px;
-        padding-bottom: 27px;
     }
 }
 
 @media screen and (max-width:768px) {
     .place__paragraph {
         max-width: 352px;
-        padding-bottom: 25px;
         font-size: 16px;
         line-height: 26.08px;
     }
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:767px) {
     .place__paragraph {
         padding-bottom: 25px;
         font-size: 16px;

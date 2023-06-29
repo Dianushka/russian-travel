@@ -1,17 +1,17 @@
 .places {
-    padding-top: 0;
-    object-fit: contain;
+    padding-bottom: 0;
+    object-fit: cover;
     padding-bottom: 92px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 1023px) {
     .places {
-        padding-bottom: 88px;
+        padding-bottom: 90px;
     }
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width: 424px) {
     .places {
-        padding-bottom: 0;
+        padding-bottom: 65px;
     }
 }

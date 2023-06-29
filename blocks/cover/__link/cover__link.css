@@ -29,3 +29,9 @@
     opacity: .5;
     z-index: 1;
 }
+@media screen  and (max-width:425px)  {
+    .cover__link{
+        gap:0;
+    }
+    
+}
