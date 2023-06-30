@@ -5,14 +5,10 @@
     object-fit: cover;
     padding-top: 0;
     padding-bottom: 0;
-    padding-right: 148px;
-    padding-left: 148px;
 }
 
 @media screen and (max-width:1024px) {
     .lead__image {
-        padding-left: 48px;
-        padding-right: 48px;
         width: 100%;
     }
 }

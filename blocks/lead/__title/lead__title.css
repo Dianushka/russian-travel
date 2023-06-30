@@ -7,31 +7,26 @@
     text-align: center;
     padding-top: 0;
     margin: 0;
-    padding-left: 280px;
-    padding-right: 280px;
     padding-bottom: 32px;
     max-width: 720px;
 }
 @media screen and (min-width:1024px) and (max-width:1279px){
     .lead__title {
-        padding-left: 152px;
-        padding-right: 152px;
         padding-top: 0;
     }
 }
+/*
 @media screen and (min-width:768) and (max-width: 1023px) {
     .lead__title {
        padding-left: 24px;
        padding-right: 24px;
     }
 }
-
+*/
 @media screen and (max-width:767px) {
     .lead__title {
         font-size: 40px;
         line-height: 44px;
-        padding-left: 16px;
-        padding-right: 16px;
         padding-bottom: 16px;
     }
 }
