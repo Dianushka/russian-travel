@@ -7,7 +7,7 @@ Hi there, I'm Diana
 
 - HTML, CSS
 - 
-  Поддерживаемые разрешения экрана:
+  **Поддерживаемые разрешения экрана:**
   
   -320
   
@@ -18,4 +18,4 @@ Hi there, I'm Diana
   -1280
   
   
-  Ссылка на проект: https://dianushka.github.io/russian-travel/
+  **Ссылка на проект:** https://dianushka.github.io/russian-travel/
