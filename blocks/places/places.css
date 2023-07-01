@@ -3,7 +3,7 @@
     padding-bottom: 92px;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (min-width:768px) and (max-width: 1023px) {
     .places {
         padding-bottom: 90px;
     }
@@ -11,6 +11,6 @@
 
 @media screen and (max-width: 424px) {
     .places {
-        padding-bottom: 65px;
+        padding-bottom: 0;
     }
 }
