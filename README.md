@@ -9,8 +9,12 @@ Hi there, I'm Diana
 - 
   Поддерживаемые разрешения экрана:
   -320
+  
   -768
+  
   -1024
+  
   -1280
+  
   
   Ссылка на проект: https://dianushka.github.io/russian-travel/
